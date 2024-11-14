@@ -26,6 +26,8 @@
         </div>
     @endif
 
+    <x-client.hero />
+
     <section class="grid grid-cols-3 place-items-center gap-3 pt-24 bg-red-500">
         @foreach ($products as $product)
             <x-client.card :product="$product" />
